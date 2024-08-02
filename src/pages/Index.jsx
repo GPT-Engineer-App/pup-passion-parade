@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Paw, Heart, Home } from "lucide-react";
+import { Dog, Heart, Home } from "lucide-react";
 
 const Index = () => {
   return (
@@ -24,7 +24,7 @@ const Index = () => {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center">
-                  <Paw className="mr-2 h-6 w-6 text-blue-500" />
+                  <Dog className="mr-2 h-6 w-6 text-blue-500" />
                   Loyal Companions
                 </CardTitle>
               </CardHeader>
